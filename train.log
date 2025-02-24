@@ -1,0 +1,716 @@
+nohup: ignoring input
+Importing plotly failed. Interactive plots will not work.
+Importing plotly failed. Interactive plots will not work.
+Training new model...
+
+Training: |          | 0/? [00:00<?, ?it/s]
+
+Finding best initial lr:   0%|          | 0/265 [00:00<?, ?it/s][AWARNING - (py.warnings._showwarnmsg) - /home/heeyeon/.local/lib/python3.10/site-packages/pytorch_lightning/utilities/data.py:79: Trying to infer the `batch_size` from an ambiguous collection. The batch size we found is 64. To avoid any miscalculations, use `self.log(..., batch_size=batch_size)`.
+
+
+
+Finding best initial lr:   0%|          | 1/265 [00:00<03:04,  1.43it/s][A
+
+Finding best initial lr:   4%|▍         | 10/265 [00:00<00:15, 16.29it/s][A
+
+Finding best initial lr:   7%|▋         | 19/265 [00:00<00:08, 30.27it/s][A
+
+Finding best initial lr:  11%|█         | 28/265 [00:01<00:05, 41.75it/s][A
+
+Finding best initial lr:  14%|█▍        | 37/265 [00:01<00:04, 52.19it/s][A
+
+Finding best initial lr:  17%|█▋        | 46/265 [00:01<00:03, 61.27it/s][A
+
+Finding best initial lr:  21%|██        | 55/265 [00:01<00:03, 67.29it/s][A
+
+Finding best initial lr:  24%|██▍       | 64/265 [00:01<00:02, 71.17it/s][A
+
+Finding best initial lr:  28%|██▊       | 73/265 [00:01<00:02, 75.62it/s][A
+
+Finding best initial lr:  31%|███▏      | 83/265 [00:01<00:02, 80.52it/s][A
+
+Finding best initial lr:  35%|███▍      | 92/265 [00:01<00:02, 81.75it/s][A
+
+Finding best initial lr:  38%|███▊      | 101/265 [00:01<00:02, 80.84it/s][A
+
+Finding best initial lr:  42%|████▏     | 111/265 [00:01<00:01, 84.76it/s][A
+
+Finding best initial lr:  46%|████▌     | 121/265 [00:02<00:01, 88.32it/s][A
+
+Finding best initial lr:  49%|████▉     | 131/265 [00:02<00:01, 90.35it/s][A
+
+Finding best initial lr:  53%|█████▎    | 141/265 [00:02<00:01, 90.95it/s][A
+
+Finding best initial lr:  57%|█████▋    | 151/265 [00:02<00:01, 92.67it/s][A
+
+Finding best initial lr:  61%|██████    | 161/265 [00:02<00:01, 92.99it/s][A
+
+Finding best initial lr:  65%|██████▍   | 171/265 [00:02<00:01, 91.30it/s][A
+
+Finding best initial lr:  68%|██████▊   | 181/265 [00:02<00:00, 87.73it/s][A
+
+Finding best initial lr:  72%|███████▏  | 191/265 [00:02<00:00, 90.25it/s][A
+
+Finding best initial lr:  76%|███████▌  | 201/265 [00:02<00:00, 91.19it/s][A
+
+Finding best initial lr:  80%|███████▉  | 211/265 [00:03<00:00, 92.19it/s][A
+
+Finding best initial lr:  83%|████████▎ | 221/265 [00:03<00:00, 93.01it/s][A
+
+Finding best initial lr:  87%|████████▋ | 231/265 [00:03<00:00, 92.92it/s][A
+
+Finding best initial lr:  91%|█████████ | 241/265 [00:03<00:00, 87.36it/s][A
+
+Finding best initial lr:  95%|█████████▍| 251/265 [00:03<00:00, 89.56it/s][A
+
+Finding best initial lr:  98%|█████████▊| 261/265 [00:03<00:00, 90.21it/s][A
+Finding best initial lr: 100%|██████████| 265/265 [00:03<00:00, 72.19it/s]
+
+Training: |          | 0/? [00:00<?, ?it/s]
+Training:   0%|          | 0/40 [00:00<?, ?it/s]
+Epoch 1:   0%|          | 0/40 [00:00<?, ?it/s] 
+Epoch 1:   2%|▎         | 1/40 [00:00<00:00, 2295.73it/s]WARNING - (py.warnings._showwarnmsg) - /home/heeyeon/.local/lib/python3.10/site-packages/pytorch_lightning/utilities/data.py:79: Trying to infer the `batch_size` from an ambiguous collection. The batch size we found is 1. To avoid any miscalculations, use `self.log(..., batch_size=batch_size)`.
+
+
+
+Validation: |          | 0/? [00:00<?, ?it/s][A
+
+Validation:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0: 100%|██████████| 10/10 [00:00<00:00, 78.23it/s][A
+
+                                                                        [A
+Training: |          | 0/? [00:06<?, ?it/s, v_num=24, MAE_val=0.0382, RMSE_val=0.0484, Loss_val=0.0259, RegLoss_val=0.000]
+Training: |          | 0/? [00:06<?, ?it/s, v_num=24, MAE_val=0.0382, RMSE_val=0.0484, Loss_val=0.0259, RegLoss_val=0.000, train_loss=0.110, reg_loss=0.000, MAE=0.0915, RMSE=0.118, Loss=0.110, RegLoss=0.000]
+Epoch 1:   0%|          | 0/40 [00:00<?, ?it/s]          
+Epoch 2:   0%|          | 0/40 [00:00<?, ?it/s]
+Epoch 2:   5%|▌         | 2/40 [00:00<00:00, 11275.01it/s]
+
+Validation: |          | 0/? [00:00<?, ?it/s][A
+
+Validation:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0: 100%|██████████| 10/10 [00:00<00:00, 82.12it/s][A
+
+                                                                        [A
+Training: |          | 0/? [00:14<?, ?it/s, v_num=24, MAE_val=0.0348, RMSE_val=0.0448, Loss_val=0.0222, RegLoss_val=0.000, train_loss=0.110, reg_loss=0.000, MAE=0.0915, RMSE=0.118, Loss=0.110, RegLoss=0.000]
+Training: |          | 0/? [00:14<?, ?it/s, v_num=24, MAE_val=0.0348, RMSE_val=0.0448, Loss_val=0.0222, RegLoss_val=0.000, train_loss=0.0168, reg_loss=0.000, MAE=0.0346, RMSE=0.0451, Loss=0.0168, RegLoss=0.000]
+Epoch 2:   0%|          | 0/40 [00:00<?, ?it/s]           
+Epoch 3:   0%|          | 0/40 [00:00<?, ?it/s]
+Epoch 3:   8%|▊         | 3/40 [00:00<00:00, 5289.16it/s]
+
+Validation: |          | 0/? [00:00<?, ?it/s][A
+
+Validation:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0: 100%|██████████| 10/10 [00:00<00:00, 81.45it/s][A
+
+                                                                        [A
+Training: |          | 0/? [00:20<?, ?it/s, v_num=24, MAE_val=0.0351, RMSE_val=0.0445, Loss_val=0.022, RegLoss_val=0.000, train_loss=0.0168, reg_loss=0.000, MAE=0.0346, RMSE=0.0451, Loss=0.0168, RegLoss=0.000] 
+Training: |          | 0/? [00:20<?, ?it/s, v_num=24, MAE_val=0.0351, RMSE_val=0.0445, Loss_val=0.022, RegLoss_val=0.000, train_loss=0.016, reg_loss=0.000, MAE=0.0336, RMSE=0.0439, Loss=0.016, RegLoss=0.000]  
+Epoch 3:   0%|          | 0/40 [00:00<?, ?it/s]          
+Epoch 4:   0%|          | 0/40 [00:00<?, ?it/s]
+Epoch 4:  10%|█         | 4/40 [00:00<00:00, 25731.93it/s]
+
+Validation: |          | 0/? [00:00<?, ?it/s][A
+
+Validation:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0: 100%|██████████| 10/10 [00:00<00:00, 81.47it/s][A
+
+                                                                        [A
+Training: |          | 0/? [00:27<?, ?it/s, v_num=24, MAE_val=0.034, RMSE_val=0.0431, Loss_val=0.0208, RegLoss_val=0.000, train_loss=0.016, reg_loss=0.000, MAE=0.0336, RMSE=0.0439, Loss=0.016, RegLoss=0.000]
+Training: |          | 0/? [00:27<?, ?it/s, v_num=24, MAE_val=0.034, RMSE_val=0.0431, Loss_val=0.0208, RegLoss_val=0.000, train_loss=0.0155, reg_loss=0.000, MAE=0.033, RMSE=0.0433, Loss=0.0155, RegLoss=0.000]
+Epoch 4:   0%|          | 0/40 [00:00<?, ?it/s]           
+Epoch 5:   0%|          | 0/40 [00:00<?, ?it/s]
+Epoch 5:  12%|█▎        | 5/40 [00:00<00:00, 28610.53it/s]
+
+Validation: |          | 0/? [00:00<?, ?it/s][A
+
+Validation:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0: 100%|██████████| 10/10 [00:00<00:00, 82.40it/s][A
+
+                                                                        [A
+Training: |          | 0/? [00:34<?, ?it/s, v_num=24, MAE_val=0.0324, RMSE_val=0.0416, Loss_val=0.0193, RegLoss_val=0.000, train_loss=0.0155, reg_loss=0.000, MAE=0.033, RMSE=0.0433, Loss=0.0155, RegLoss=0.000]
+Training: |          | 0/? [00:34<?, ?it/s, v_num=24, MAE_val=0.0324, RMSE_val=0.0416, Loss_val=0.0193, RegLoss_val=0.000, train_loss=0.014, reg_loss=0.000, MAE=0.0311, RMSE=0.0412, Loss=0.014, RegLoss=0.000] 
+Epoch 5:   0%|          | 0/40 [00:00<?, ?it/s]           
+Epoch 6:   0%|          | 0/40 [00:00<?, ?it/s]
+Epoch 6:  15%|█▌        | 6/40 [00:00<00:00, 32222.57it/s]
+
+Validation: |          | 0/? [00:00<?, ?it/s][A
+
+Validation:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0: 100%|██████████| 10/10 [00:00<00:00, 82.58it/s][A
+
+                                                                        [A
+Training: |          | 0/? [00:41<?, ?it/s, v_num=24, MAE_val=0.032, RMSE_val=0.0413, Loss_val=0.0191, RegLoss_val=0.000, train_loss=0.014, reg_loss=0.000, MAE=0.0311, RMSE=0.0412, Loss=0.014, RegLoss=0.000] 
+Training: |          | 0/? [00:41<?, ?it/s, v_num=24, MAE_val=0.032, RMSE_val=0.0413, Loss_val=0.0191, RegLoss_val=0.000, train_loss=0.013, reg_loss=0.000, MAE=0.0297, RMSE=0.0396, Loss=0.013, RegLoss=0.000]
+Epoch 6:   0%|          | 0/40 [00:00<?, ?it/s]           
+Epoch 7:   0%|          | 0/40 [00:00<?, ?it/s]
+Epoch 7:  18%|█▊        | 7/40 [00:00<00:00, 39356.74it/s]
+
+Validation: |          | 0/? [00:00<?, ?it/s][A
+
+Validation:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0: 100%|██████████| 10/10 [00:00<00:00, 82.07it/s][A
+
+                                                                        [A
+Training: |          | 0/? [00:48<?, ?it/s, v_num=24, MAE_val=0.0428, RMSE_val=0.0538, Loss_val=0.0316, RegLoss_val=0.000, train_loss=0.013, reg_loss=0.000, MAE=0.0297, RMSE=0.0396, Loss=0.013, RegLoss=0.000]
+Training: |          | 0/? [00:48<?, ?it/s, v_num=24, MAE_val=0.0428, RMSE_val=0.0538, Loss_val=0.0316, RegLoss_val=0.000, train_loss=0.0128, reg_loss=0.000, MAE=0.0295, RMSE=0.0393, Loss=0.0128, RegLoss=0.000]
+Epoch 7:   0%|          | 0/40 [00:00<?, ?it/s]           
+Epoch 8:   0%|          | 0/40 [00:00<?, ?it/s]
+Epoch 8:  20%|██        | 8/40 [00:00<00:00, 42420.27it/s]
+
+Validation: |          | 0/? [00:00<?, ?it/s][A
+
+Validation:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0: 100%|██████████| 10/10 [00:00<00:00, 82.97it/s][A
+
+                                                                        [A
+Training: |          | 0/? [00:55<?, ?it/s, v_num=24, MAE_val=0.0587, RMSE_val=0.0713, Loss_val=0.0546, RegLoss_val=0.000, train_loss=0.0128, reg_loss=0.000, MAE=0.0295, RMSE=0.0393, Loss=0.0128, RegLoss=0.000]
+Training: |          | 0/? [00:55<?, ?it/s, v_num=24, MAE_val=0.0587, RMSE_val=0.0713, Loss_val=0.0546, RegLoss_val=0.000, train_loss=0.0126, reg_loss=0.000, MAE=0.0291, RMSE=0.0389, Loss=0.0126, RegLoss=0.000]
+Epoch 8:   0%|          | 0/40 [00:00<?, ?it/s]           
+Epoch 9:   0%|          | 0/40 [00:00<?, ?it/s]
+Epoch 9:  22%|██▎       | 9/40 [00:00<00:00, 48582.67it/s]
+
+Validation: |          | 0/? [00:00<?, ?it/s][A
+
+Validation:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0: 100%|██████████| 10/10 [00:00<00:00, 82.97it/s][A
+
+                                                                        [A
+Training: |          | 0/? [01:02<?, ?it/s, v_num=24, MAE_val=0.0498, RMSE_val=0.0613, Loss_val=0.0408, RegLoss_val=0.000, train_loss=0.0126, reg_loss=0.000, MAE=0.0291, RMSE=0.0389, Loss=0.0126, RegLoss=0.000]
+Training: |          | 0/? [01:02<?, ?it/s, v_num=24, MAE_val=0.0498, RMSE_val=0.0613, Loss_val=0.0408, RegLoss_val=0.000, train_loss=0.0126, reg_loss=0.000, MAE=0.0291, RMSE=0.0389, Loss=0.0126, RegLoss=0.000]
+Epoch 9:   0%|          | 0/40 [00:00<?, ?it/s]           
+Epoch 10:   0%|          | 0/40 [00:00<?, ?it/s]
+Epoch 10:  25%|██▌       | 10/40 [00:00<00:00, 52103.16it/s]
+
+Validation: |          | 0/? [00:00<?, ?it/s][A
+
+Validation:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0: 100%|██████████| 10/10 [00:00<00:00, 71.56it/s][A
+
+                                                                        [A
+Training: |          | 0/? [01:09<?, ?it/s, v_num=24, MAE_val=0.0423, RMSE_val=0.0536, Loss_val=0.0326, RegLoss_val=0.000, train_loss=0.0126, reg_loss=0.000, MAE=0.0291, RMSE=0.0389, Loss=0.0126, RegLoss=0.000]
+Training: |          | 0/? [01:09<?, ?it/s, v_num=24, MAE_val=0.0423, RMSE_val=0.0536, Loss_val=0.0326, RegLoss_val=0.000, train_loss=0.0126, reg_loss=0.000, MAE=0.0293, RMSE=0.039, Loss=0.0126, RegLoss=0.000] 
+Epoch 10:   0%|          | 0/40 [00:00<?, ?it/s]            
+Epoch 11:   0%|          | 0/40 [00:00<?, ?it/s]
+Epoch 11:  28%|██▊       | 11/40 [00:00<00:00, 63637.72it/s]
+
+Validation: |          | 0/? [00:00<?, ?it/s][A
+
+Validation:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0: 100%|██████████| 10/10 [00:00<00:00, 82.59it/s][A
+
+                                                                        [A
+Training: |          | 0/? [01:16<?, ?it/s, v_num=24, MAE_val=0.0405, RMSE_val=0.0519, Loss_val=0.0297, RegLoss_val=0.000, train_loss=0.0126, reg_loss=0.000, MAE=0.0293, RMSE=0.039, Loss=0.0126, RegLoss=0.000]
+Training: |          | 0/? [01:16<?, ?it/s, v_num=24, MAE_val=0.0405, RMSE_val=0.0519, Loss_val=0.0297, RegLoss_val=0.000, train_loss=0.0129, reg_loss=0.000, MAE=0.0296, RMSE=0.0394, Loss=0.0129, RegLoss=0.000]
+Epoch 11:   0%|          | 0/40 [00:00<?, ?it/s]            
+Epoch 12:   0%|          | 0/40 [00:00<?, ?it/s]
+Epoch 12:  30%|███       | 12/40 [00:00<00:00, 70393.91it/s]
+
+Validation: |          | 0/? [00:00<?, ?it/s][A
+
+Validation:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0: 100%|██████████| 10/10 [00:00<00:00, 83.65it/s][A
+
+                                                                        [A
+Training: |          | 0/? [01:23<?, ?it/s, v_num=24, MAE_val=0.0396, RMSE_val=0.0504, Loss_val=0.028, RegLoss_val=0.000, train_loss=0.0129, reg_loss=0.000, MAE=0.0296, RMSE=0.0394, Loss=0.0129, RegLoss=0.000] 
+Training: |          | 0/? [01:23<?, ?it/s, v_num=24, MAE_val=0.0396, RMSE_val=0.0504, Loss_val=0.028, RegLoss_val=0.000, train_loss=0.0127, reg_loss=0.000, MAE=0.0294, RMSE=0.0392, Loss=0.0128, RegLoss=0.000]
+Epoch 12:   0%|          | 0/40 [00:00<?, ?it/s]            
+Epoch 13:   0%|          | 0/40 [00:00<?, ?it/s]
+Epoch 13:  32%|███▎      | 13/40 [00:00<00:00, 73783.43it/s]
+
+Validation: |          | 0/? [00:00<?, ?it/s][A
+
+Validation:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0: 100%|██████████| 10/10 [00:00<00:00, 83.17it/s][A
+
+                                                                        [A
+Training: |          | 0/? [01:29<?, ?it/s, v_num=24, MAE_val=0.0514, RMSE_val=0.0644, Loss_val=0.0445, RegLoss_val=0.000, train_loss=0.0127, reg_loss=0.000, MAE=0.0294, RMSE=0.0392, Loss=0.0128, RegLoss=0.000]
+Training: |          | 0/? [01:29<?, ?it/s, v_num=24, MAE_val=0.0514, RMSE_val=0.0644, Loss_val=0.0445, RegLoss_val=0.000, train_loss=0.0127, reg_loss=0.000, MAE=0.0293, RMSE=0.0391, Loss=0.0127, RegLoss=0.000]
+Epoch 13:   0%|          | 0/40 [00:00<?, ?it/s]            
+Epoch 14:   0%|          | 0/40 [00:00<?, ?it/s]
+Epoch 14:  35%|███▌      | 14/40 [00:00<00:00, 76658.30it/s]
+
+Validation: |          | 0/? [00:00<?, ?it/s][A
+
+Validation:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0: 100%|██████████| 10/10 [00:00<00:00, 82.66it/s][A
+
+                                                                        [A
+Training: |          | 0/? [01:36<?, ?it/s, v_num=24, MAE_val=0.0352, RMSE_val=0.0457, Loss_val=0.023, RegLoss_val=0.000, train_loss=0.0127, reg_loss=0.000, MAE=0.0293, RMSE=0.0391, Loss=0.0127, RegLoss=0.000] 
+Training: |          | 0/? [01:36<?, ?it/s, v_num=24, MAE_val=0.0352, RMSE_val=0.0457, Loss_val=0.023, RegLoss_val=0.000, train_loss=0.0126, reg_loss=0.000, MAE=0.0292, RMSE=0.039, Loss=0.0126, RegLoss=0.000] 
+Epoch 14:   0%|          | 0/40 [00:00<?, ?it/s]            
+Epoch 15:   0%|          | 0/40 [00:00<?, ?it/s]
+Epoch 15:  38%|███▊      | 15/40 [00:00<00:00, 29468.18it/s]
+
+Validation: |          | 0/? [00:00<?, ?it/s][A
+
+Validation:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0: 100%|██████████| 10/10 [00:00<00:00, 83.51it/s][A
+
+                                                                        [A
+Training: |          | 0/? [01:43<?, ?it/s, v_num=24, MAE_val=0.0314, RMSE_val=0.0412, Loss_val=0.019, RegLoss_val=0.000, train_loss=0.0126, reg_loss=0.000, MAE=0.0292, RMSE=0.039, Loss=0.0126, RegLoss=0.000]
+Training: |          | 0/? [01:43<?, ?it/s, v_num=24, MAE_val=0.0314, RMSE_val=0.0412, Loss_val=0.019, RegLoss_val=0.000, train_loss=0.0123, reg_loss=0.000, MAE=0.0287, RMSE=0.0385, Loss=0.0123, RegLoss=0.000]
+Epoch 15:   0%|          | 0/40 [00:00<?, ?it/s]            
+Epoch 16:   0%|          | 0/40 [00:00<?, ?it/s]
+Epoch 16:  40%|████      | 16/40 [00:00<00:00, 30685.35it/s]
+
+Validation: |          | 0/? [00:00<?, ?it/s][A
+
+Validation:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0: 100%|██████████| 10/10 [00:00<00:00, 82.40it/s][A
+
+                                                                        [A
+Training: |          | 0/? [01:50<?, ?it/s, v_num=24, MAE_val=0.0606, RMSE_val=0.0727, Loss_val=0.0569, RegLoss_val=0.000, train_loss=0.0123, reg_loss=0.000, MAE=0.0287, RMSE=0.0385, Loss=0.0123, RegLoss=0.000]
+Training: |          | 0/? [01:50<?, ?it/s, v_num=24, MAE_val=0.0606, RMSE_val=0.0727, Loss_val=0.0569, RegLoss_val=0.000, train_loss=0.012, reg_loss=0.000, MAE=0.0283, RMSE=0.0381, Loss=0.012, RegLoss=0.000]  
+Epoch 16:   0%|          | 0/40 [00:00<?, ?it/s]            
+Epoch 17:   0%|          | 0/40 [00:00<?, ?it/s]
+Epoch 17:  42%|████▎     | 17/40 [00:00<00:00, 95966.58it/s]
+
+Validation: |          | 0/? [00:00<?, ?it/s][A
+
+Validation:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0: 100%|██████████| 10/10 [00:00<00:00, 82.72it/s][A
+
+                                                                        [A
+Training: |          | 0/? [01:57<?, ?it/s, v_num=24, MAE_val=0.0274, RMSE_val=0.0367, Loss_val=0.015, RegLoss_val=0.000, train_loss=0.012, reg_loss=0.000, MAE=0.0283, RMSE=0.0381, Loss=0.012, RegLoss=0.000] 
+Training: |          | 0/? [01:57<?, ?it/s, v_num=24, MAE_val=0.0274, RMSE_val=0.0367, Loss_val=0.015, RegLoss_val=0.000, train_loss=0.0119, reg_loss=0.000, MAE=0.0281, RMSE=0.0378, Loss=0.0119, RegLoss=0.000]
+Epoch 17:   0%|          | 0/40 [00:00<?, ?it/s]            
+Epoch 18:   0%|          | 0/40 [00:00<?, ?it/s]
+Epoch 18:  45%|████▌     | 18/40 [00:00<00:00, 98432.17it/s]
+
+Validation: |          | 0/? [00:00<?, ?it/s][A
+
+Validation:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0: 100%|██████████| 10/10 [00:00<00:00, 83.56it/s][A
+
+                                                                        [A
+Training: |          | 0/? [02:04<?, ?it/s, v_num=24, MAE_val=0.0314, RMSE_val=0.0413, Loss_val=0.0188, RegLoss_val=0.000, train_loss=0.0119, reg_loss=0.000, MAE=0.0281, RMSE=0.0378, Loss=0.0119, RegLoss=0.000]
+Training: |          | 0/? [02:04<?, ?it/s, v_num=24, MAE_val=0.0314, RMSE_val=0.0413, Loss_val=0.0188, RegLoss_val=0.000, train_loss=0.0113, reg_loss=0.000, MAE=0.0272, RMSE=0.0369, Loss=0.0113, RegLoss=0.000]
+Epoch 18:   0%|          | 0/40 [00:00<?, ?it/s]            
+Epoch 19:   0%|          | 0/40 [00:00<?, ?it/s]
+Epoch 19:  48%|████▊     | 19/40 [00:00<00:00, 120928.34it/s]
+
+Validation: |          | 0/? [00:00<?, ?it/s][A
+
+Validation:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0: 100%|██████████| 10/10 [00:00<00:00, 83.32it/s][A
+
+                                                                        [A
+Training: |          | 0/? [02:11<?, ?it/s, v_num=24, MAE_val=0.0281, RMSE_val=0.0371, Loss_val=0.0153, RegLoss_val=0.000, train_loss=0.0113, reg_loss=0.000, MAE=0.0272, RMSE=0.0369, Loss=0.0113, RegLoss=0.000]
+Training: |          | 0/? [02:11<?, ?it/s, v_num=24, MAE_val=0.0281, RMSE_val=0.0371, Loss_val=0.0153, RegLoss_val=0.000, train_loss=0.0107, reg_loss=0.000, MAE=0.0264, RMSE=0.036, Loss=0.0107, RegLoss=0.000] 
+Epoch 19:   0%|          | 0/40 [00:00<?, ?it/s]             
+Epoch 20:   0%|          | 0/40 [00:00<?, ?it/s]
+Epoch 20:  50%|█████     | 20/40 [00:00<00:00, 109942.44it/s]
+
+Validation: |          | 0/? [00:00<?, ?it/s][A
+
+Validation:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0: 100%|██████████| 10/10 [00:00<00:00, 82.70it/s][A
+
+                                                                        [A
+Training: |          | 0/? [02:18<?, ?it/s, v_num=24, MAE_val=0.0272, RMSE_val=0.0362, Loss_val=0.0146, RegLoss_val=0.000, train_loss=0.0107, reg_loss=0.000, MAE=0.0264, RMSE=0.036, Loss=0.0107, RegLoss=0.000]
+Training: |          | 0/? [02:18<?, ?it/s, v_num=24, MAE_val=0.0272, RMSE_val=0.0362, Loss_val=0.0146, RegLoss_val=0.000, train_loss=0.0103, reg_loss=0.000, MAE=0.0257, RMSE=0.0352, Loss=0.0103, RegLoss=0.000]
+Epoch 20:   0%|          | 0/40 [00:00<?, ?it/s]             
+Epoch 21:   0%|          | 0/40 [00:00<?, ?it/s]
+Epoch 21:  52%|█████▎    | 21/40 [00:00<00:00, 113505.65it/s]
+
+Validation: |          | 0/? [00:00<?, ?it/s][A
+
+Validation:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0: 100%|██████████| 10/10 [00:00<00:00, 82.88it/s][A
+
+                                                                        [A
+Training: |          | 0/? [02:25<?, ?it/s, v_num=24, MAE_val=0.0258, RMSE_val=0.0347, Loss_val=0.0134, RegLoss_val=0.000, train_loss=0.0103, reg_loss=0.000, MAE=0.0257, RMSE=0.0352, Loss=0.0103, RegLoss=0.000]
+Training: |          | 0/? [02:25<?, ?it/s, v_num=24, MAE_val=0.0258, RMSE_val=0.0347, Loss_val=0.0134, RegLoss_val=0.000, train_loss=0.00988, reg_loss=0.000, MAE=0.025, RMSE=0.0346, Loss=0.00987, RegLoss=0.000]
+Epoch 21:   0%|          | 0/40 [00:00<?, ?it/s]             
+Epoch 22:   0%|          | 0/40 [00:00<?, ?it/s]
+Epoch 22:  55%|█████▌    | 22/40 [00:00<00:00, 122380.22it/s]
+
+Validation: |          | 0/? [00:00<?, ?it/s][A
+
+Validation:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0: 100%|██████████| 10/10 [00:00<00:00, 76.74it/s][A
+
+                                                                        [A
+Training: |          | 0/? [02:32<?, ?it/s, v_num=24, MAE_val=0.0327, RMSE_val=0.0425, Loss_val=0.0198, RegLoss_val=0.000, train_loss=0.00988, reg_loss=0.000, MAE=0.025, RMSE=0.0346, Loss=0.00987, RegLoss=0.000]
+Training: |          | 0/? [02:32<?, ?it/s, v_num=24, MAE_val=0.0327, RMSE_val=0.0425, Loss_val=0.0198, RegLoss_val=0.000, train_loss=0.00958, reg_loss=0.000, MAE=0.0245, RMSE=0.0341, Loss=0.00958, RegLoss=0.000]
+Epoch 22:   0%|          | 0/40 [00:00<?, ?it/s]             
+Epoch 23:   0%|          | 0/40 [00:00<?, ?it/s]
+Epoch 23:  57%|█████▊    | 23/40 [00:00<00:00, 141036.54it/s]
+
+Validation: |          | 0/? [00:00<?, ?it/s][A
+
+Validation:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0: 100%|██████████| 10/10 [00:00<00:00, 83.86it/s][A
+
+                                                                        [A
+Training: |          | 0/? [02:39<?, ?it/s, v_num=24, MAE_val=0.0241, RMSE_val=0.033, Loss_val=0.0121, RegLoss_val=0.000, train_loss=0.00958, reg_loss=0.000, MAE=0.0245, RMSE=0.0341, Loss=0.00958, RegLoss=0.000] 
+Training: |          | 0/? [02:39<?, ?it/s, v_num=24, MAE_val=0.0241, RMSE_val=0.033, Loss_val=0.0121, RegLoss_val=0.000, train_loss=0.00948, reg_loss=0.000, MAE=0.0243, RMSE=0.0339, Loss=0.00947, RegLoss=0.000]
+Epoch 23:   0%|          | 0/40 [00:00<?, ?it/s]             
+Epoch 24:   0%|          | 0/40 [00:00<?, ?it/s]
+Epoch 24:  60%|██████    | 24/40 [00:00<00:00, 144423.67it/s]
+
+Validation: |          | 0/? [00:00<?, ?it/s][A
+
+Validation:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0: 100%|██████████| 10/10 [00:00<00:00, 83.65it/s][A
+
+                                                                        [A
+Training: |          | 0/? [02:46<?, ?it/s, v_num=24, MAE_val=0.0255, RMSE_val=0.0344, Loss_val=0.0131, RegLoss_val=0.000, train_loss=0.00948, reg_loss=0.000, MAE=0.0243, RMSE=0.0339, Loss=0.00947, RegLoss=0.000]
+Training: |          | 0/? [02:46<?, ?it/s, v_num=24, MAE_val=0.0255, RMSE_val=0.0344, Loss_val=0.0131, RegLoss_val=0.000, train_loss=0.00929, reg_loss=0.000, MAE=0.024, RMSE=0.0335, Loss=0.00928, RegLoss=0.000] 
+Epoch 24:   0%|          | 0/40 [00:00<?, ?it/s]             
+Epoch 25:   0%|          | 0/40 [00:00<?, ?it/s]
+Epoch 25:  62%|██████▎   | 25/40 [00:00<00:00, 152409.30it/s]
+
+Validation: |          | 0/? [00:00<?, ?it/s][A
+
+Validation:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0: 100%|██████████| 10/10 [00:00<00:00, 83.14it/s][A
+
+                                                                        [A
+Training: |          | 0/? [02:53<?, ?it/s, v_num=24, MAE_val=0.0246, RMSE_val=0.0336, Loss_val=0.0126, RegLoss_val=0.000, train_loss=0.00929, reg_loss=0.000, MAE=0.024, RMSE=0.0335, Loss=0.00928, RegLoss=0.000]
+Training: |          | 0/? [02:53<?, ?it/s, v_num=24, MAE_val=0.0246, RMSE_val=0.0336, Loss_val=0.0126, RegLoss_val=0.000, train_loss=0.00939, reg_loss=0.000, MAE=0.0242, RMSE=0.0338, Loss=0.00943, RegLoss=0.000]
+Epoch 25:   0%|          | 0/40 [00:00<?, ?it/s]             
+Epoch 26:   0%|          | 0/40 [00:00<?, ?it/s]
+Epoch 26:  65%|██████▌   | 26/40 [00:00<00:00, 158275.62it/s]
+
+Validation: |          | 0/? [00:00<?, ?it/s][A
+
+Validation:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0: 100%|██████████| 10/10 [00:00<00:00, 83.91it/s][A
+
+                                                                        [A
+Training: |          | 0/? [03:00<?, ?it/s, v_num=24, MAE_val=0.0244, RMSE_val=0.0334, Loss_val=0.0124, RegLoss_val=0.000, train_loss=0.00939, reg_loss=0.000, MAE=0.0242, RMSE=0.0338, Loss=0.00943, RegLoss=0.000]
+Training: |          | 0/? [03:00<?, ?it/s, v_num=24, MAE_val=0.0244, RMSE_val=0.0334, Loss_val=0.0124, RegLoss_val=0.000, train_loss=0.00935, reg_loss=0.000, MAE=0.0241, RMSE=0.0337, Loss=0.00935, RegLoss=0.000]
+Epoch 26:   0%|          | 0/40 [00:00<?, ?it/s]             
+Epoch 27:   0%|          | 0/40 [00:00<?, ?it/s]
+Epoch 27:  68%|██████▊   | 27/40 [00:00<00:00, 171325.58it/s]
+
+Validation: |          | 0/? [00:00<?, ?it/s][A
+
+Validation:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0: 100%|██████████| 10/10 [00:00<00:00, 83.85it/s][A
+
+                                                                        [A
+Training: |          | 0/? [03:07<?, ?it/s, v_num=24, MAE_val=0.0253, RMSE_val=0.0344, Loss_val=0.0131, RegLoss_val=0.000, train_loss=0.00935, reg_loss=0.000, MAE=0.0241, RMSE=0.0337, Loss=0.00935, RegLoss=0.000]
+Training: |          | 0/? [03:07<?, ?it/s, v_num=24, MAE_val=0.0253, RMSE_val=0.0344, Loss_val=0.0131, RegLoss_val=0.000, train_loss=0.00925, reg_loss=0.000, MAE=0.024, RMSE=0.0335, Loss=0.00924, RegLoss=0.000] 
+Epoch 27:   0%|          | 0/40 [00:00<?, ?it/s]             
+Epoch 28:   0%|          | 0/40 [00:00<?, ?it/s]
+Epoch 28:  70%|███████   | 28/40 [00:00<00:00, 175546.36it/s]
+
+Validation: |          | 0/? [00:00<?, ?it/s][A
+
+Validation:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0: 100%|██████████| 10/10 [00:00<00:00, 82.71it/s][A
+
+                                                                        [A
+Training: |          | 0/? [03:14<?, ?it/s, v_num=24, MAE_val=0.0245, RMSE_val=0.0334, Loss_val=0.0124, RegLoss_val=0.000, train_loss=0.00925, reg_loss=0.000, MAE=0.024, RMSE=0.0335, Loss=0.00924, RegLoss=0.000]
+Training: |          | 0/? [03:14<?, ?it/s, v_num=24, MAE_val=0.0245, RMSE_val=0.0334, Loss_val=0.0124, RegLoss_val=0.000, train_loss=0.00921, reg_loss=0.000, MAE=0.0239, RMSE=0.0334, Loss=0.0092, RegLoss=0.000]
+Epoch 28:   0%|          | 0/40 [00:00<?, ?it/s]             
+Epoch 29:   0%|          | 0/40 [00:00<?, ?it/s]
+Epoch 29:  72%|███████▎  | 29/40 [00:00<00:00, 179138.17it/s]
+
+Validation: |          | 0/? [00:00<?, ?it/s][A
+
+Validation:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0: 100%|██████████| 10/10 [00:00<00:00, 83.49it/s][A
+
+                                                                        [A
+Training: |          | 0/? [03:21<?, ?it/s, v_num=24, MAE_val=0.0242, RMSE_val=0.0333, Loss_val=0.0123, RegLoss_val=0.000, train_loss=0.00921, reg_loss=0.000, MAE=0.0239, RMSE=0.0334, Loss=0.0092, RegLoss=0.000]
+Training: |          | 0/? [03:21<?, ?it/s, v_num=24, MAE_val=0.0242, RMSE_val=0.0333, Loss_val=0.0123, RegLoss_val=0.000, train_loss=0.00918, reg_loss=0.000, MAE=0.0239, RMSE=0.0334, Loss=0.00918, RegLoss=0.000]
+Epoch 29:   0%|          | 0/40 [00:00<?, ?it/s]             
+Epoch 30:   0%|          | 0/40 [00:00<?, ?it/s]
+Epoch 30:  75%|███████▌  | 30/40 [00:00<00:00, 162569.92it/s]
+
+Validation: |          | 0/? [00:00<?, ?it/s][A
+
+Validation:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0: 100%|██████████| 10/10 [00:00<00:00, 82.94it/s][A
+
+                                                                        [A
+Training: |          | 0/? [03:28<?, ?it/s, v_num=24, MAE_val=0.0237, RMSE_val=0.0327, Loss_val=0.0119, RegLoss_val=0.000, train_loss=0.00918, reg_loss=0.000, MAE=0.0239, RMSE=0.0334, Loss=0.00918, RegLoss=0.000]
+Training: |          | 0/? [03:28<?, ?it/s, v_num=24, MAE_val=0.0237, RMSE_val=0.0327, Loss_val=0.0119, RegLoss_val=0.000, train_loss=0.00912, reg_loss=0.000, MAE=0.0238, RMSE=0.0333, Loss=0.00912, RegLoss=0.000]
+Epoch 30:   0%|          | 0/40 [00:00<?, ?it/s]             
+Epoch 31:   0%|          | 0/40 [00:00<?, ?it/s]
+Epoch 31:  78%|███████▊  | 31/40 [00:00<00:00, 173828.11it/s]
+
+Validation: |          | 0/? [00:00<?, ?it/s][A
+
+Validation:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0: 100%|██████████| 10/10 [00:00<00:00, 83.30it/s][A
+
+                                                                        [A
+Training: |          | 0/? [03:35<?, ?it/s, v_num=24, MAE_val=0.0238, RMSE_val=0.0329, Loss_val=0.012, RegLoss_val=0.000, train_loss=0.00912, reg_loss=0.000, MAE=0.0238, RMSE=0.0333, Loss=0.00912, RegLoss=0.000] 
+Training: |          | 0/? [03:35<?, ?it/s, v_num=24, MAE_val=0.0238, RMSE_val=0.0329, Loss_val=0.012, RegLoss_val=0.000, train_loss=0.00911, reg_loss=0.000, MAE=0.0238, RMSE=0.0332, Loss=0.00911, RegLoss=0.000]
+Epoch 31:   0%|          | 0/40 [00:00<?, ?it/s]             
+Epoch 32:   0%|          | 0/40 [00:00<?, ?it/s]
+Epoch 32:  80%|████████  | 32/40 [00:00<00:00, 172294.90it/s]
+
+Validation: |          | 0/? [00:00<?, ?it/s][A
+
+Validation:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0: 100%|██████████| 10/10 [00:00<00:00, 82.27it/s][A
+
+                                                                        [A
+Training: |          | 0/? [03:41<?, ?it/s, v_num=24, MAE_val=0.0238, RMSE_val=0.0327, Loss_val=0.0119, RegLoss_val=0.000, train_loss=0.00911, reg_loss=0.000, MAE=0.0238, RMSE=0.0332, Loss=0.00911, RegLoss=0.000]
+Training: |          | 0/? [03:41<?, ?it/s, v_num=24, MAE_val=0.0238, RMSE_val=0.0327, Loss_val=0.0119, RegLoss_val=0.000, train_loss=0.00903, reg_loss=0.000, MAE=0.0236, RMSE=0.0331, Loss=0.00902, RegLoss=0.000]
+Epoch 32:   0%|          | 0/40 [00:00<?, ?it/s]             
+Epoch 33:   0%|          | 0/40 [00:00<?, ?it/s]
+Epoch 33:  82%|████████▎ | 33/40 [00:00<00:00, 205664.24it/s]
+
+Validation: |          | 0/? [00:00<?, ?it/s][A
+
+Validation:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0: 100%|██████████| 10/10 [00:00<00:00, 82.20it/s][A
+
+                                                                        [A
+Training: |          | 0/? [03:48<?, ?it/s, v_num=24, MAE_val=0.0236, RMSE_val=0.0326, Loss_val=0.0118, RegLoss_val=0.000, train_loss=0.00903, reg_loss=0.000, MAE=0.0236, RMSE=0.0331, Loss=0.00902, RegLoss=0.000]
+Training: |          | 0/? [03:48<?, ?it/s, v_num=24, MAE_val=0.0236, RMSE_val=0.0326, Loss_val=0.0118, RegLoss_val=0.000, train_loss=0.00904, reg_loss=0.000, MAE=0.0236, RMSE=0.0331, Loss=0.00902, RegLoss=0.000]
+Epoch 33:   0%|          | 0/40 [00:00<?, ?it/s]             
+Epoch 34:   0%|          | 0/40 [00:00<?, ?it/s]
+Epoch 34:  85%|████████▌ | 34/40 [00:00<00:00, 206376.75it/s]
+
+Validation: |          | 0/? [00:00<?, ?it/s][A
+
+Validation:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0: 100%|██████████| 10/10 [00:00<00:00, 82.29it/s][A
+
+                                                                        [A
+Training: |          | 0/? [03:55<?, ?it/s, v_num=24, MAE_val=0.0235, RMSE_val=0.0325, Loss_val=0.0118, RegLoss_val=0.000, train_loss=0.00904, reg_loss=0.000, MAE=0.0236, RMSE=0.0331, Loss=0.00902, RegLoss=0.000]
+Training: |          | 0/? [03:55<?, ?it/s, v_num=24, MAE_val=0.0235, RMSE_val=0.0325, Loss_val=0.0118, RegLoss_val=0.000, train_loss=0.00897, reg_loss=0.000, MAE=0.0235, RMSE=0.033, Loss=0.00896, RegLoss=0.000] 
+Epoch 34:   0%|          | 0/40 [00:00<?, ?it/s]             
+Epoch 35:   0%|          | 0/40 [00:00<?, ?it/s]
+Epoch 35:  88%|████████▊ | 35/40 [00:00<00:00, 68406.64it/s]
+
+Validation: |          | 0/? [00:00<?, ?it/s][A
+
+Validation:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0: 100%|██████████| 10/10 [00:00<00:00, 72.42it/s][A
+
+                                                                        [A
+Training: |          | 0/? [04:03<?, ?it/s, v_num=24, MAE_val=0.0236, RMSE_val=0.0326, Loss_val=0.0119, RegLoss_val=0.000, train_loss=0.00897, reg_loss=0.000, MAE=0.0235, RMSE=0.033, Loss=0.00896, RegLoss=0.000]
+Training: |          | 0/? [04:03<?, ?it/s, v_num=24, MAE_val=0.0236, RMSE_val=0.0326, Loss_val=0.0119, RegLoss_val=0.000, train_loss=0.00895, reg_loss=0.000, MAE=0.0234, RMSE=0.0329, Loss=0.00895, RegLoss=0.000]
+Epoch 35:   0%|          | 0/40 [00:00<?, ?it/s]            
+Epoch 36:   0%|          | 0/40 [00:00<?, ?it/s]
+Epoch 36:  90%|█████████ | 36/40 [00:00<00:00, 195083.91it/s]
+
+Validation: |          | 0/? [00:00<?, ?it/s][A
+
+Validation:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0: 100%|██████████| 10/10 [00:00<00:00, 83.34it/s][A
+
+                                                                        [A
+Training: |          | 0/? [04:10<?, ?it/s, v_num=24, MAE_val=0.0237, RMSE_val=0.0327, Loss_val=0.0119, RegLoss_val=0.000, train_loss=0.00895, reg_loss=0.000, MAE=0.0234, RMSE=0.0329, Loss=0.00895, RegLoss=0.000]
+Training: |          | 0/? [04:10<?, ?it/s, v_num=24, MAE_val=0.0237, RMSE_val=0.0327, Loss_val=0.0119, RegLoss_val=0.000, train_loss=0.00892, reg_loss=0.000, MAE=0.0234, RMSE=0.0329, Loss=0.00893, RegLoss=0.000]
+Epoch 36:   0%|          | 0/40 [00:00<?, ?it/s]             
+Epoch 37:   0%|          | 0/40 [00:00<?, ?it/s]
+Epoch 37:  92%|█████████▎| 37/40 [00:00<00:00, 209432.18it/s]
+
+Validation: |          | 0/? [00:00<?, ?it/s][A
+
+Validation:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0: 100%|██████████| 10/10 [00:00<00:00, 81.97it/s][A
+
+                                                                        [A
+Training: |          | 0/? [04:16<?, ?it/s, v_num=24, MAE_val=0.0235, RMSE_val=0.0325, Loss_val=0.0118, RegLoss_val=0.000, train_loss=0.00892, reg_loss=0.000, MAE=0.0234, RMSE=0.0329, Loss=0.00893, RegLoss=0.000]
+Training: |          | 0/? [04:16<?, ?it/s, v_num=24, MAE_val=0.0235, RMSE_val=0.0325, Loss_val=0.0118, RegLoss_val=0.000, train_loss=0.00888, reg_loss=0.000, MAE=0.0233, RMSE=0.0328, Loss=0.00888, RegLoss=0.000]
+Epoch 37:   0%|          | 0/40 [00:00<?, ?it/s]             
+Epoch 38:   0%|          | 0/40 [00:00<?, ?it/s]
+Epoch 38:  95%|█████████▌| 38/40 [00:00<00:00, 215674.63it/s]
+
+Validation: |          | 0/? [00:00<?, ?it/s][A
+
+Validation:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0: 100%|██████████| 10/10 [00:00<00:00, 82.39it/s][A
+
+                                                                        [A
+Training: |          | 0/? [04:23<?, ?it/s, v_num=24, MAE_val=0.0234, RMSE_val=0.0325, Loss_val=0.0118, RegLoss_val=0.000, train_loss=0.00888, reg_loss=0.000, MAE=0.0233, RMSE=0.0328, Loss=0.00888, RegLoss=0.000]
+Training: |          | 0/? [04:23<?, ?it/s, v_num=24, MAE_val=0.0234, RMSE_val=0.0325, Loss_val=0.0118, RegLoss_val=0.000, train_loss=0.00887, reg_loss=0.000, MAE=0.0233, RMSE=0.0328, Loss=0.00887, RegLoss=0.000]
+Epoch 38:   0%|          | 0/40 [00:00<?, ?it/s]             
+Epoch 39:   0%|          | 0/40 [00:00<?, ?it/s]
+Epoch 39:  98%|█████████▊| 39/40 [00:00<00:00, 244877.03it/s]
+
+Validation: |          | 0/? [00:00<?, ?it/s][A
+
+Validation:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0: 100%|██████████| 10/10 [00:00<00:00, 81.95it/s][A
+
+                                                                        [A
+Training: |          | 0/? [04:30<?, ?it/s, v_num=24, MAE_val=0.0235, RMSE_val=0.0326, Loss_val=0.0118, RegLoss_val=0.000, train_loss=0.00887, reg_loss=0.000, MAE=0.0233, RMSE=0.0328, Loss=0.00887, RegLoss=0.000]
+Training: |          | 0/? [04:30<?, ?it/s, v_num=24, MAE_val=0.0235, RMSE_val=0.0326, Loss_val=0.0118, RegLoss_val=0.000, train_loss=0.00885, reg_loss=0.000, MAE=0.0233, RMSE=0.0327, Loss=0.00884, RegLoss=0.000]
+Epoch 39:   0%|          | 0/40 [00:00<?, ?it/s]             
+Epoch 40:   0%|          | 0/40 [00:00<?, ?it/s]
+Epoch 40: 100%|██████████| 40/40 [00:00<00:00, 239674.51it/s]
+
+Validation: |          | 0/? [00:00<?, ?it/s][A
+
+Validation:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Validation DataLoader 0: 100%|██████████| 10/10 [00:00<00:00, 83.84it/s][A
+
+                                                                        [A
+Training: |          | 0/? [04:37<?, ?it/s, v_num=24, MAE_val=0.0234, RMSE_val=0.0324, Loss_val=0.0117, RegLoss_val=0.000, train_loss=0.00885, reg_loss=0.000, MAE=0.0233, RMSE=0.0327, Loss=0.00884, RegLoss=0.000]
+Training: |          | 0/? [04:37<?, ?it/s, v_num=24, MAE_val=0.0234, RMSE_val=0.0324, Loss_val=0.0117, RegLoss_val=0.000, train_loss=0.00885, reg_loss=0.000, MAE=0.0233, RMSE=0.0328, Loss=0.00885, RegLoss=0.000]
+Training: |          | 0/? [04:37<?, ?it/s, v_num=24, MAE_val=0.0234, RMSE_val=0.0324, Loss_val=0.0117, RegLoss_val=0.000, train_loss=0.00885, reg_loss=0.000, MAE=0.0233, RMSE=0.0328, Loss=0.00885, RegLoss=0.000]
+     MAE_val  RMSE_val  Loss_val  ...      RMSE      Loss  RegLoss
+0   0.038168  0.048393  0.025855  ...  0.117640  0.110104      0.0
+1   0.034800  0.044812  0.022213  ...  0.045132  0.016794      0.0
+2   0.035091  0.044544  0.021968  ...  0.043947  0.015961      0.0
+3   0.033966  0.043136  0.020765  ...  0.043294  0.015466      0.0
+4   0.032381  0.041643  0.019272  ...  0.041163  0.013972      0.0
+5   0.031959  0.041316  0.019109  ...  0.039575  0.012960      0.0
+6   0.042819  0.053844  0.031569  ...  0.039333  0.012832      0.0
+7   0.058671  0.071299  0.054611  ...  0.038877  0.012559      0.0
+8   0.049834  0.061331  0.040765  ...  0.038949  0.012580      0.0
+9   0.042257  0.053641  0.032564  ...  0.039011  0.012633      0.0
+10  0.040502  0.051865  0.029682  ...  0.039415  0.012895      0.0
+11  0.039626  0.050449  0.028017  ...  0.039230  0.012761      0.0
+12  0.051393  0.064379  0.044533  ...  0.039101  0.012682      0.0
+13  0.035221  0.045671  0.022988  ...  0.038970  0.012589      0.0
+14  0.031373  0.041199  0.019013  ...  0.038487  0.012291      0.0
+15  0.060585  0.072736  0.056876  ...  0.038054  0.012004      0.0
+16  0.027421  0.036709  0.015008  ...  0.037843  0.011905      0.0
+17  0.031379  0.041333  0.018786  ...  0.036874  0.011268      0.0
+18  0.028105  0.037138  0.015312  ...  0.035976  0.010713      0.0
+19  0.027151  0.036242  0.014551  ...  0.035235  0.010258      0.0
+20  0.025770  0.034675  0.013372  ...  0.034550  0.009867      0.0
+21  0.032666  0.042530  0.019843  ...  0.034055  0.009576      0.0
+22  0.024073  0.032970  0.012132  ...  0.033859  0.009468      0.0
+23  0.025465  0.034405  0.013128  ...  0.033535  0.009279      0.0
+24  0.024559  0.033585  0.012555  ...  0.033778  0.009427      0.0
+25  0.024376  0.033366  0.012395  ...  0.033672  0.009351      0.0
+26  0.025302  0.034359  0.013107  ...  0.033482  0.009241      0.0
+27  0.024486  0.033439  0.012445  ...  0.033404  0.009201      0.0
+28  0.024225  0.033271  0.012330  ...  0.033373  0.009175      0.0
+29  0.023743  0.032682  0.011904  ...  0.033250  0.009119      0.0
+30  0.023837  0.032860  0.012030  ...  0.033243  0.009106      0.0
+31  0.023762  0.032686  0.011899  ...  0.033077  0.009023      0.0
+32  0.023638  0.032611  0.011845  ...  0.033093  0.009024      0.0
+33  0.023498  0.032523  0.011796  ...  0.032972  0.008959      0.0
+34  0.023641  0.032616  0.011869  ...  0.032949  0.008946      0.0
+35  0.023677  0.032723  0.011921  ...  0.032904  0.008927      0.0
+36  0.023508  0.032545  0.011813  ...  0.032840  0.008880      0.0
+37  0.023440  0.032474  0.011752  ...  0.032817  0.008868      0.0
+38  0.023536  0.032568  0.011828  ...  0.032745  0.008843      0.0
+39  0.023416  0.032443  0.011734  ...  0.032770  0.008846      0.0
+
+[40 rows x 11 columns]
+Model saved: ./model/neupModel_nforecasts160.pt
