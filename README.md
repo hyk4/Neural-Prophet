@@ -1,4 +1,4 @@
-# Neural-Prophet: 부유체 6자유도 운동 시계열 예측
+# Neural-Prophet: 선박 6자유도 운동 시계열 예측
 
 [NeuralProphet](https://github.com/ourownstory/neural_prophet)으로 부유체의 6자유도 운동(Surge, Sway, Heave, Roll, Pitch, Yaw) 시계열을 학습하고, **과거 16초를 보고 미래 16초의 Surge를 예측**하는 실험 코드입니다.
 
@@ -42,10 +42,6 @@ python train.py
 # 2. 예측 및 평가
 python forecast.py
 ```
-
-데이터는 `./time_series/orgin_dataset/LIN_001_IRR_MOT.mot`, 모델 저장 폴더는 `./model/`을 기준으로 합니다. 두 경로 모두 저장소에 포함돼 있지 않으니 직접 준비해야 합니다.
-
-> `forecast.py`는 전처리된 데이터프레임을 `t1` 모듈(`t1.df`)에서 가져오는데, `t1.py`는 저장소에 없습니다. `train.py`와 같은 방식으로 전처리한 `df`를 담은 `t1.py`를 만들어 두거나, 해당 부분을 `from train import df`로 바꿔서 실행하세요.
 
 ## 결과
 
