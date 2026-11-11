@@ -1,12 +1,12 @@
 # Neural-Prophet: 선박 6자유도 운동 시계열 예측
 
-[NeuralProphet](https://github.com/ourownstory/neural_prophet)으로 부유체의 6자유도 운동(Surge, Sway, Heave, Roll, Pitch, Yaw) 시계열을 학습하고, **과거 16초를 보고 미래 16초의 Surge를 예측**하는 실험 코드입니다.
+[NeuralProphet](https://github.com/ourownstory/neural_prophet)으로 선박의 6자유도 운동(Surge, Sway, Heave, Roll, Pitch, Yaw) 시계열을 자유도별로 각각 학습하여 과거 16초를 보고 미래 16초를 예측하는 실험 코드입니다. 레포의 `train.py`·`forecast.py`는 Surge 모델 기준이며 나머지 5개 자유도는 각각 따로 학습했습니다.
 
 ## 개요
 
 - **입력 데이터**: `.mot` 형식의 운동 시계열 (`Time, Surge, Sway, Heave, Roll, Pitch, Yaw`), 샘플링 간격 0.1초
-- **예측 대상**: `Surge` (`y`)
-- **보조 입력**: `Sway, Heave, Roll, Pitch, Yaw`를 lagged regressor로 사용
+- **예측 대상**: 자유도별 개별 모델 (코드 예시는 `Surge`를 `y`로 사용)
+- **보조 입력**: 예측 대상을 뺀 나머지 자유도를 lagged regressor로 사용 (Surge 모델은 `Sway, Heave, Roll, Pitch, Yaw`)
 - **학습/검증 분할**: 8 : 2
 
 ### 모델 설정 (`train.py`)
@@ -57,3 +57,14 @@ python forecast.py
 0.8초 앞 예측의 오차가 가장 작고, 예측 거리가 멀어질수록 오차가 꾸준히 커집니다.
 
 ![yhat8 예측](forecast_yhat8_end.png)
+
+## 파도 데이터 추가 전후 비교
+
+운동 데이터만으로 학습한 모델과 파도 데이터를 추가로 학습한 모델의 6개 자유도 예측을 같은 구간(30초)에서 비교했습니다.
+
+| 파도 데이터 없음 | 파도 데이터 추가 |
+| --- | --- |
+| ![파도 데이터 없음](result_without_wave.png) | ![파도 데이터 추가](result_with_wave.png) |
+
+- **파도 데이터 없음**: 약 10초 이후부터 예측값이 실제값에서 벗어나고, 이후 크게 발산합니다.
+- **파도 데이터 추가**: 실제값을 따라가는 구간이 약 15초까지 늘어났습니다.
